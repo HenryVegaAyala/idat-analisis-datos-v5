@@ -34,3 +34,19 @@ print(f"Lista de productos eliminados: {vitrina}")
 # 10. Contar elementos que existe en una lista
 total_productos = len(vitrina)
 print(f"Total de productos en la vitrina: {total_productos}")
+
+# 11. Eliminación multiples elementos de una lista
+
+# ejemplo rango
+vitrina = ["Polo", "Pantalón", "Zapatos", "Camisa", "Chaqueta"]
+del vitrina[1:3]
+print(f"Lista de productos actualizados: {vitrina}")
+
+# Eliminación de elementos específicos
+vitrina = ["Polo", "Pantalón", "Zapatos", "Camisa", "Chaqueta", "Billetera", "Sandalias"]
+indices_a_eliminar = [0, 2, 5]
+
+for indice in sorted(indices_a_eliminar, reverse=True):
+    del vitrina[indice]
+
+print(f"Lista de productos eliminados: {vitrina}")
