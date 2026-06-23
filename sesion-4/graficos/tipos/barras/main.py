@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 ciudades = ["Lima", "Cusco", "Arequipa"]
 ventas = [500, 300, 450]
 
-barras = plt.bar(ciudades, ventas)
+barras = plt.bar(ciudades, ventas, color=["red", "green", "blue"])
 
 # Títulos y etiquetas
 plt.title("Ventas por ciudad", fontsize=16, fontweight="bold")
