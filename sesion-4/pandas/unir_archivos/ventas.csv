@@ -1,0 +1,9 @@
+id_venta,fecha,vendedor,producto,cantidad,precio,id_cliente
+1,2024-01-10,Ana,Laptop,1,1200,C001
+2,2024-01-11,Luis,Mouse,2,25,C002
+3,2024-01-12,Ana,Laptop,1,1200,C0012
+4,2024-01-13,María,Teclado,1,45,C0033
+5,2024-01-11,Luis,Mouse,2,25,C011
+6,2024-01-14,Carlos,Monitor,1,300,C012
+7,2024-01-14,Carlos,Monitor,1,300,C010
+8,2026-01-14,Carlos,Camara,3,300,C002
