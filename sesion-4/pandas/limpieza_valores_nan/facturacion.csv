@@ -1,0 +1,6 @@
+id_factura,id_cliente,monto_total
+F900,C001,5000
+F901,C002,
+F902,C001,3000
+F903,,10000
+F900,C001,5000
