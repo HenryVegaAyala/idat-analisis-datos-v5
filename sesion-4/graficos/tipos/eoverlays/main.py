@@ -20,4 +20,5 @@ for index, valor in enumerate(luz):
 for index, valor in enumerate(agua):
     plt.text(mes[index], valor + 1, str(valor), ha="center")
 
-plt.show()
+# plt.show()
+plt.savefig("Consolidado de gastos")
